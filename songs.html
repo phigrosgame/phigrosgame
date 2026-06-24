@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌曲列表 - Phigros Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">PHIGROS</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首頁</a></li>
+                <li><a href="game.html" class="nav-link">遊戲介紹</a></li>
+                <li><a href="songs.html" class="nav-link active">歌曲列表</a></li>
+                <li><a href="about.html" class="nav-link">關於我們</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>歌曲列表</h1>
+            <p>探索 Phigros 豐富的音樂曲庫</p>
+        </div>
+    </section>
+
+    <section class="songs-section">
+        <div class="container">
+            <div class="song-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="ez">EZ 簡單</button>
+                <button class="filter-btn" data-filter="hd">HD 普通</button>
+                <button class="filter-btn" data-filter="in">IN 困難</button>
+                <button class="filter-btn" data-filter="at">AT 噩夢</button>
+            </div>
+
+            <div class="song-grid">
+                <div class="song-card" data-difficulty="in">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #ff0080, #bf00ff);">
+                        <span class="song-difficulty diff-in">IN 15</span>
+                        🎹
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Spasmodic</div>
+                        <div class="song-artist">by みゆみゆ</div>
+                        <div class="song-meta">
+                            <span>BPM 180</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="hd">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #00ffff, #0088ff);">
+                        <span class="song-difficulty diff-hd">HD 12</span>
+                        🎸
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Better Graphic Animation</div>
+                        <div class="song-artist">by モリモリあつし</div>
+                        <div class="song-meta">
+                            <span>BPM 160</span>
+                            <span>人氣 ★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="ez">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #00ff88, #00cc66);">
+                        <span class="song-difficulty diff-ez">EZ 3</span>
+                        🎤
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">dB doll</div>
+                        <div class="song-artist">by モリモリあつし</div>
+                        <div class="song-meta">
+                            <span>BPM 120</span>
+                            <span>人氣 ★★★☆☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="hd">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #ff8800, #ff0044);">
+                        <span class="song-difficulty diff-hd">HD 13</span>
+                        🥁
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">GOODTEK</div>
+                        <div class="song-artist">by EBIMAYO</div>
+                        <div class="song-meta">
+                            <span>BPM 170</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="in">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #8800ff, #ff00aa);">
+                        <span class="song-difficulty diff-in">IN 16</span>
+                        🎺
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Rrhar'il</div>
+                        <div class="song-artist">by Team Grimoire</div>
+                        <div class="song-meta">
+                            <span>BPM 200</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="at">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #ff0000, #880000);">
+                        <span class="song-difficulty diff-at">AT 17</span>
+                        🔥
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Igallta</div>
+                        <div class="song-artist">by モリモリあつし</div>
+                        <div class="song-meta">
+                            <span>BPM 220</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="hd">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #00ffcc, #0088ff);">
+                        <span class="song-difficulty diff-hd">HD 11</span>
+                        🎻
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Lyrith -迷宮リリス-</div>
+                        <div class="song-artist">by Team Grimoire</div>
+                        <div class="song-meta">
+                            <span>BPM 150</span>
+                            <span>人氣 ★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="in">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #ffcc00, #ff6600);">
+                        <span class="song-difficulty diff-in">IN 14</span>
+                        🎷
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Cthugha</div>
+                        <div class="song-artist">by みゆみゆ</div>
+                        <div class="song-meta">
+                            <span>BPM 190</span>
+                            <span>人氣 ★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="ez">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #88ff88, #44cc44);">
+                        <span class="song-difficulty diff-ez">EZ 5</span>
+                        🎼
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Introduction</div>
+                        <div class="song-artist">by Pigeon Games</div>
+                        <div class="song-meta">
+                            <span>BPM 100</span>
+                            <span>人氣 ★★☆☆☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="in">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #0088ff, #0044aa);">
+                        <span class="song-difficulty diff-in">IN 15</span>
+                        🌊
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Water</div>
+                        <div class="song-artist">by EBIMAYO</div>
+                        <div class="song-meta">
+                            <span>BPM 175</span>
+                            <span>人氣 ★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="hd">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #ff00ff, #8800ff);">
+                        <span class="song-difficulty diff-hd">HD 12</span>
+                        💜
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Marenol</div>
+                        <div class="song-artist">by LeaF</div>
+                        <div class="song-meta">
+                            <span>BPM 165</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card" data-difficulty="at">
+                    <div class="song-cover" style="background: linear-gradient(135deg, #000000, #330033);">
+                        <span class="song-difficulty diff-at">AT 16</span>
+                        🌙
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title">Aleph-0</div>
+                        <div class="song-artist">by モリモリあつし</div>
+                        <div class="song-meta">
+                            <span>BPM 210</span>
+                            <span>人氣 ★★★★★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" style="padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title">更多歌曲</h2>
+            <p style="text-align: center; color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+                Phigros 擁有數十首不同風格的音樂，從電子音樂到交響樂，應有盡有。
+                隨著遊戲更新，還會不斷加入新的歌曲！
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PHIGROS</h4>
+                    <p>粉絲自製資訊網站</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="game.html">遊戲介紹</a></li>
+                        <li><a href="songs.html">歌曲列表</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>官方連結</h4>
+                    <ul>
+                        <li><a href="https://pigeon-games.com" target="_blank">Pigeon Games</a></li>
+                        <li><a href="https://twitter.com/Phigros_PGS" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Phigros Fan Site. 本網站為粉絲自製，非官方網站。</p>
+                <p>Phigros © Pigeon Games</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
